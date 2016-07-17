@@ -20,6 +20,7 @@ object Huffman {
     */
   abstract class CodeTree {
     def chars: List[Char]
+    def weight: Int
   }
 
   case class Fork(left: CodeTree, right: CodeTree, chars: List[Char], weight: Int) extends CodeTree
@@ -127,7 +128,7 @@ object Huffman {
   def combine(trees: List[CodeTree]): List[CodeTree] = {
     if (trees.length < 2) trees
     else {
-      makeCodeTree(trees.head, trees.tail.head) :: trees.tail.tail
+      (makeCodeTree(trees.head, trees.tail.head) :: trees.tail.tail).sortWith((a, b) => a.weight < b.weight)
     }
   }
 
