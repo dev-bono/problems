@@ -21,37 +21,44 @@ def lis(list):
     return max_len
 
 
-test_list = [3, 6, 4, 7, 8, 2, 5, 12, 21, 52, 2, 55, 1, 32, 1, 7, 2, 2, 5, 21, 22, 5, 12 ,215, 3, 12, 5]
-print(lis(test_list))
+# test_list = [3, 6, 4, 7, 8, 2, 5, 12, 21, 52, 2, 55, 1, 32, 1, 7, 2, 2, 5, 21, 22, 5, 12 ,215, 3, 12, 5]
+# print(lis(test_list))
 
 
-A = [1, 2, 3]
-B = [10, 20, 30]
-n = 5
+A = [1, 2, 6]
+B = [4, 5, 6]
+n = 3
 m = 3
+cache = [[-1]*(m+1) for x in range(n+1)]
+
 
 def jlis(index_A, index_B):
+    c_cache = cache[index_A+1][index_B+1]
+    if c_cache != -1:
+        return c_cache
 
-    if index_A >= len(A) or index_B >= len(B):
-        return
+    a = 0 if index_A == -1 else A[index_A]
+    b = 0 if index_B == -1 else B[index_B]
 
     max_len = 2
-    a = A[index_A]
-    b = B[index_B]
     max_element = max(a, b)
 
     for i in range(index_A+1, n):
+        print("i : ", i)
         if max_element < A[i]:
             max_len = max(max_len, jlis(i, index_B) + 1)
 
     for j in range(index_B+1, m):
+        print("j : ", j)
         if max_element < B[j]:
             max_len = max(max_len, jlis(index_A, j) + 1)
 
+    cache[index_A+1][index_B+1] = max_len
+    print(cache)
     return max_len
 
 
-print(jlis(0, 0))
+print(jlis(-1, -1))
 
 
 
