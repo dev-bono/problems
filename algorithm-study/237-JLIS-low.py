@@ -37,30 +37,23 @@ def jlis(index_A, index_B):
     if c_cache != -1:
         return c_cache
 
-    a = 0 if index_A == -1 else A[index_A]
-    b = 0 if index_B == -1 else B[index_B]
+    # 최소값을 써준다.(임시로 -10000을 써줌)
+    a = -10000 if index_A == -1 else A[index_A]
+    b = -10000 if index_B == -1 else B[index_B]
 
     max_len = 2
     max_element = max(a, b)
 
-    for i in range(index_A+1, n):
-        print("i : ", i)
-        if max_element < A[i]:
-            max_len = max(max_len, jlis(i, index_B) + 1)
+    for next_A in range(index_A+1, n):
+        if max_element < A[next_A]:
+            max_len = max(max_len, jlis(next_A, index_B) + 1)
 
-    for j in range(index_B+1, m):
-        print("j : ", j)
-        if max_element < B[j]:
-            max_len = max(max_len, jlis(index_A, j) + 1)
+    for next_B in range(index_B+1, m):
+        if max_element < B[next_B]:
+            max_len = max(max_len, jlis(index_A, next_B) + 1)
 
     cache[index_A+1][index_B+1] = max_len
-    print(cache)
     return max_len
 
 
-print(jlis(-1, -1))
-
-
-
-
-# def jlis(list):
+print(jlis(-1, -1) - 2)
