@@ -17,7 +17,10 @@
     <SUITE FILE_PATH="coverage/algorithm-study$259_ASYMTILING_low.coverage" NAME="259-ASYMTILING-low Coverage Results" MODIFIED="1475684339827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm-study$picnic_low_155.coverage" NAME="picnic-low-155 Coverage Results" MODIFIED="1474476893818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm-study$boardcover_low_159.coverage" NAME="boardcover-low-159 Coverage Results" MODIFIED="1474478006502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/algorithm-study$340_NUMBERGAME_low.coverage" NAME="340-NUMBERGAME-low Coverage Results" MODIFIED="1476118282323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,13 +54,19 @@
       <file leaf-file-name="237-JLIS-low.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/237-JLIS-low.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+=======
+            <state relative-caret-position="630">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="259-ASYMTILING-low.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/259-ASYMTILING-low.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,6 +82,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+=======
+      <file leaf-file-name="259-ASYMTILING-low.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/259-ASYMTILING-low.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
               <folding />
             </state>
           </provider>
@@ -95,7 +111,10 @@
         <option value="$PROJECT_DIR$/JLIS-low-237.py" />
         <option value="$PROJECT_DIR$/237-JLIS-low.py" />
         <option value="$PROJECT_DIR$/259-ASYMTILING-low.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/340-NUMBERGAME-low.py" />
+=======
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
       </list>
     </option>
   </component>
@@ -165,7 +184,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.340-NUMBERGAME-low">
+=======
+  <component name="RunManager" selected="Python.259-ASYMTILING-low">
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
     <configuration default="false" name="picnic-low-155" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,6 +261,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="340-NUMBERGAME-low" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +280,8 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+=======
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -458,11 +484,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <list size="5">
+=======
+    <list size="4">
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
       <item index="0" class="java.lang.String" itemvalue="Python.picnic-low-155" />
       <item index="1" class="java.lang.String" itemvalue="Python.boardcover-low-159" />
       <item index="2" class="java.lang.String" itemvalue="Python.237-JLIS-low" />
       <item index="3" class="java.lang.String" itemvalue="Python.259-ASYMTILING-low" />
+<<<<<<< HEAD
       <item index="4" class="java.lang.String" itemvalue="Python.340-NUMBERGAME-low" />
     </list>
     <recent_temporary>
@@ -472,6 +503,15 @@
         <item index="2" class="java.lang.String" itemvalue="Python.237-JLIS-low" />
         <item index="3" class="java.lang.String" itemvalue="Python.boardcover-low-159" />
         <item index="4" class="java.lang.String" itemvalue="Python.picnic-low-155" />
+=======
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.259-ASYMTILING-low" />
+        <item index="1" class="java.lang.String" itemvalue="Python.237-JLIS-low" />
+        <item index="2" class="java.lang.String" itemvalue="Python.boardcover-low-159" />
+        <item index="3" class="java.lang.String" itemvalue="Python.picnic-low-155" />
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
       </list>
     </recent_temporary>
   </component>
@@ -558,6 +598,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/259-ASYMTILING-low.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -570,14 +611,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/237-JLIS-low.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/340-NUMBERGAME-low.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/259-ASYMTILING-low.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+>>>>>>> 2aef672f992a9e6ca88836d986648ba93fa0a186
           <folding />
         </state>
       </provider>
