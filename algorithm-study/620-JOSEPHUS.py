@@ -42,3 +42,20 @@ def josephus(n, k):
 
 print(josephus(6, 3))
 print(josephus(40, 3))
+
+"""
+두번째 방법
+"""
+def solve(list, k):
+    die_index = 0
+    while len(list) > 2:
+        del list[die_index]
+        die_index -= 1
+        die_index = (die_index + k) % len(list)
+    return list
+
+print(solve([1,2,3,4,5,6], 3))
+
+list = [i+1 for i in range(40)]
+print(solve(list, 3))
+        
